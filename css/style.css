@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-size: 0;
+}
+
+body{
+    margin-top: 50px;;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    background-color: orange;
+}
+.shadow{
+    width: 100px;
+    height: 400px;
+    display: inline-block;
+    box-shadow: inset 15px 0px 11px -11px rgba(0,0,0,0.52)
+}
